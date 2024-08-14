@@ -1,0 +1,25 @@
+body {font-family: Arial, sans-serif;display: flex;justify-content: center;align-items: center;height: 100vh;margin: 0;animation: backgroundAnimation 20s infinite alternate;background: url(../img/1.jpg) no-repeat 0 / 100% auto;}
+@keyframes backgroundAnimation {
+    0% { background: url(../img/1.jpg) no-repeat 0 / 150% auto; }
+    50% { background: url(../img/2.jpeg) no-repeat 0 / 150% auto; }
+    75% { background: url(../img/3.jpg) no-repeat 0 / 150% auto; }
+    100% { background: url(../img/4.jpg) no-repeat 0 / 150% auto; }
+}
+@keyframes fadeIn {
+    0% { transform: translateY(-50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+.container { padding: 30px; border-radius: 12px; box-shadow: 0 0 20px rgba(212, 95, 12, 0.15); width: 30%; text-align: center; transform: translateY(-50px); animation: fadeIn 1.5s ease-out forwards;opacity: 0;}
+h2 {text-transform: uppercase;margin-bottom: 20px;color: #d62020;}
+.input-group {margin-bottom: 15px;text-align: left;}
+label {display: block;margin-bottom: 5px;color: #020202;}
+input[type="text"] {width: 100%;padding: 10px;border-radius: 6px;border: 1px solid #ccc;box-sizing: border-box;transition: border-color 0.3s ease;}
+input[type="text"]:focus {border-color: #4CAF50;outline: none;}
+a.verify-button { display: block; text-decoration: none;background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 6px; cursor: pointer; width: 91%;margin-top: 20px;transition: background-color 0.3s ease, transform 0.3s ease;}
+a.verify-button:hover {background-color: #ec6b0e;transform: translateY(-2px);}
+.student-details-container { background-color: rgba(15, 14, 13, 0.15); display: flex;padding: 20px;border-radius: 10px;box-shadow: 0 0 20px rgba(212, 95, 12, 0.15);max-width: 800px;width: 100%;margin: 20px;}
+.photo {flex: 1;margin-right: 20px;}
+.photo img {width: 100%;border-radius: 10px;object-fit: cover;height: auto;}
+.details {flex: 1;display: flex;flex-direction: column;justify-content: center;}
+p {margin: 10px 0;font-size: 16px;color: #ffff;}
+p strong {color: #081101;}
