@@ -1,9 +1,9 @@
 body {font-family: Arial, sans-serif;display: flex;justify-content: center;align-items: center;height: 100vh;margin: 0;animation: backgroundAnimation 20s infinite alternate;background: url(../img/1.jpg) no-repeat 0 / 100% auto;}
 @keyframes backgroundAnimation {
-    0% { background: url(../img/1.jpg) no-repeat 0 / 150% auto; }
-    50% { background: url(../img/2.jpeg) no-repeat 0 / 150% auto; }
-    75% { background: url(../img/3.jpg) no-repeat 0 / 150% auto; }
-    100% { background: url(../img/4.jpg) no-repeat 0 / 150% auto; }
+    0% { background: url(../img/1.jpg) no-repeat 0 / 100% auto; }
+    50% { background: url(../img/2.jpg) no-repeat 0 / 100% auto; }
+    75% { background: url(../img/3.jpg) no-repeat 0 / 100% auto; }
+    100% { background: url(../img/4.jpg) no-repeat 0 / 100% auto; }
 }
 @keyframes fadeIn {
     0% { transform: translateY(-50px); opacity: 0; }
